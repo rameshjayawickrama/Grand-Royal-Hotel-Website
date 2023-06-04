@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/Booking_form.css">
+    <script src="https://kit.fontawesome.com/7c40190028.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ 
+    <div class="room-title">
+        <h1>Our Rooms</h1>
+    </div>
+     
+    <div class="room-box">
+        <div class="room-box-div1">
+           <img src="assets/images/123.jpg">
+           <div class="room-box-div1-flex">
+                <h2>Premium King Room</h2>
+                <div class="room-box-div1-icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <button class="booking">Booking Now</button>
+            </div>
+            <table class="room-details">
+                <tr><td class="rd">Size :</td><td>30ft</td></tr>
+                <tr><td class="rd">Capacity :</td><td>	Max persion 5</td></tr>
+                <tr><td class="rd">Bed :</td><td>King Beds</td></tr>
+                <tr><td class="rd">Services :</td><td>Wifi, Television, Bathroom</td></tr>
+            </table>
+        </div>
+        <div class="room-box-div2">
+            <h1>Your Reservation</h1>
+            <form action="" class="form">
+                <div class="fields field1">
+                    <label for="date1">Check in :</label><br>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="date" name="date1" class="date1" placeholder=""><br>
+                </div>
+                <div class="fields field2">
+                    <label for="date1">Check in :</label><br>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="date" name="date1" class="date1"><br>
+                </div>
+                <div class="fields field3">
+                    <label for="Guests">Guests :</label> <br>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <select name="Guests" id="guests">
+                        <option value="guest1">1 Guest</option>
+                        <option value="guest2">2 Guests</option>
+                        <option value="guest3">3 Guests</option>
+                        <option value="guest4">4 Guests</option>
+                        <option value="guest5">5 Guests</option>
+                    </select><br>
+                </div>
+            <div class="fields field4">
+                <label for="Room">Room Type :</label> <br>
+                <i class="fa-solid fa-chevron-down"></i>
+                <select name="Guests" id="guests">
+                    <option value="guest1">1 Guest</option>
+                    <option value="guest2">2 Guests</option>
+                    <option value="guest3">3 Guests</option>
+                    <option value="guest4">4 Guests</option>
+                    <option value="guest5">5 Guests</option>
+                </select><br>
+            </div>
+                <input type="submit" name="button" id="form-btn" value="Check Availability">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
