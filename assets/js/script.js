@@ -89,3 +89,33 @@ function openDatePicker(inputId) {
       input.click();
   }
 }
+
+
+// Careers Section-------------------//
+$(".job-p").click(function(){
+  $(".job-form").fadeIn(300)
+  $(".job-form").css({
+      display: 'block',
+      opacity: '1',
+  })
+  $("body").css({
+      overflow: 'hidden',
+  })
+  $(".form-class").css({
+      display: 'block',
+  })
+
+})
+$(".close-btn").click(function(){
+  $(".job-form").fadeOut(300)
+  $(".job-form").css({
+      display: 'none',
+      opacity: "0",
+  })
+  $(".form-class").css({
+      display: 'block'
+  })
+  $(".form-class").css({
+      display: 'none',
+  })
+})
